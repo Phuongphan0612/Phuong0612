@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nha Phuong Portfolio</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+    }
+
+    .col {
+        width: 80%;
+        margin: auto;
+    }
+</style>
+<body class="">
+    <!-- Navigation -->
+    <nav class="w-full h-16 border-b-2 border-gray-200">
+        <div class="col h-full flex justify-between items-center">
+            <a href="./index.html" class="text-xl font-medium">Phuong.</a>
+            <div class="w-56 flex justify-between font-medium">
+                <a href="https://drive.google.com/file/d/1Uk2dWLqExhZEY2c3pGgT742SL5sGZ-jG/view?usp=sharing">MyCV</a>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <section class="col flex justify-evenly mt-16">
+        <div class="h-auto flex flex-col justify-center text-center">
+            <span class="text-6xl mb-3 max-[431px]:text-4xl">I'm <span class="font-bold text-[#71b5c3]">Nha Phuong</span></span>
+            <span class="text-3xl font-medium mb-2 max-[431px]:text-xl">Biomedical Researcher</span>
+            <span class="max-[431px]:text-sm">Researcher studies biological processes and diseases</span>
+            <div class="flex justify-center space-x-3 mt-3">
+                <a href="https://github.com/Phuongphan0612"><img src="./img/github-142-svgrepo-com.svg" alt="" class="w-10 h-10 max-[431px]:h-8 max-[431px]:w-8"></a>
+                <a href="https://www.linkedin.com/in/nh%C3%A3-ph%C6%B0%C6%A1ng-phan-thanh-3b5311318/"><img src="./img/linkedin-1-svgrepo-com.svg" alt="" class="w-11 h-11 max-[431px]:h-9 max-[431px]:w-9"></a>
+                <a href="https://www.facebook.com/profile.php?id=61551582032662"><img src="./img/facebook-color-svgrepo-com.svg" alt="" class="w-10 h-10 max-[431px]:h-8 max-[431px]:w-8"></a>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="w-full h-[40rem] mt-24 bg-[#e6edee] max-[431px]:h-[50rem]">
+        <div class="col h-full pt-16">
+            <h1 class="text-2xl font-bold text-center">ABOUT ME</h1>
+            <div class="flex items-center justify-center max-[431px]:flex-col">
+                <div class="w-80 h-96  rounded-tl-full rounded-tr-full mr-6">
+                    <img src="./img/Phuong_phan123.png" alt="" class="w-96 h-96 object-cover">
+                </div>
+                <div class="flex flex-col ml-10 max-[431px]:items-center max-[431px]:m-0">
+                    <span class="w-[32rem] font-medium text-left text-xl max-[431px]:w-[20rem] max-[431px]:mt-5 max-[431px]:text-base">A biomedical researcher with expertise in cellular and molecular biology. 
+                        Experienced in data analysis and lab experiments, particularly in cancer pathology. 
+                        Dedicated to improving public health and advancing medical science.
+                    </span>
+                    <a href="https://drive.google.com/file/d/1Uk2dWLqExhZEY2c3pGgT742SL5sGZ-jG/view?usp=sharing" class="bg-white p-3 w-32 mt-5 font-medium">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog -->
+    <section id="blog" class="w-full h-[40rem] my-10 max-[431px]:h-auto">
+        <div class="col h-full m-auto px-32 max-[431px]:px-0">
+            <h2 class="uppercase text-2xl text-center font-bold mb-6">Blog</h2>
+            <div class="flex pt-20 max-[431px]:flex-col max-[431px]:pt-0">
+                <img src="./img/research.jpg" alt="" class="h-[20rem] w-[30rem] pr-5 max-[431px]:pr-0">
+                <div class="flex flex-col space-y-3">
+                    <span class="text-sm max-[431px]:mt-4">01 AUG 2015</span>
+                    <a href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-nbt.2014.0042" class="font-semibold text-xl hover:text-blue-500">Development of shampoo, 
+                        soap and ointment formulated by green synthesised silver nanoparticles functionalised with antimicrobial plants oils in veterinary dermatology: treatment and prevention strategies</a>
+                    <span>Nanotechnology is a multidisciplinary subject dealing with the synthesis, properties and applications of the particles at the nano range (1–100 nm). 
+                        Researchers have been developing various products based on nanoparticles, some of which are open to the market for public use.
+                         Nanotechnologies have great effect on house-cleaning, antiseptics and disinfectant products...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="bg-[#e6edee] min-h-[400px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+       <div class="w-full lg:w-[60%] mb-5">
+         <h2 class="uppercase text-2xl text-center font-bold mb-6">Contact</h2>
+         <p class="flex flex-col justify-center items-center pt-5 pb-5 text-center">
+           <span class="text-2xl text-teal-500 mb-3 font-medium">I LOOK FORWARD TO WORKING WITH YOU</span>
+           <span>I'm so happy that my skills might bring values to you. Let's connect for work</span>
+         </p>
+       </div>
+       <a href="mailto:pthanhnhaphuong0612@gmail.com?subject=Hi, Phuong I want to connect with you for work !!!&body=Please describe your work or projects requirements"
+         class="border-2 border-teal-400 pl-8 pr-8 pt-3 pb-3 bg-teal-400 text-white hover:bg-white hover:text-teal-400 transition-colors cursor-pointer">
+         <span class="text-xl uppercase font-light focus:outline-none focus:ring focus:ring-teal-300">Send An Email Now</span></a>
+   </section>        
+    <!-- FOOTER -->
+    <footer class="w-full h-40 bg-black flex justify-center items-center">
+        <div class="border-b-2 border-gray-400"></div>
+        <span class="text-gray-400">&copy; 2024 Phan Thanh Nha Phuong</span>
+    </footer>
+</body>
+<script type="module" src="/src/scripts/application.js"></script>
+</html>
